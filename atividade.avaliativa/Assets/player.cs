@@ -47,8 +47,8 @@ public class Player : MonoBehaviour
             rb.AddForce(new Vector2(0,forcaDoPulo), ForceMode2D.Impulse);
         }
 
-        animator.SetBool("Andando",andando);
-        animator.SetBool("Pulo",!noChao);
+        animator.SetBool("sapo.correndo",andando);
+        animator.SetBool("sapo.pulo",!noChao);
         
     }
 
